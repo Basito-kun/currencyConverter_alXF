@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Currency Converter</title>
+</head>
+<body>
+  <h1>Currency Converter</h1>
+  
+  <form id="converter-form">
+    <label for="from">From:</label>
+    <input type="text" id="from" name="from" placeholder="e.g., USD" required>
+
+    <label for="to">To:</label>
+    <input type="text" id="to" name="to" placeholder="e.g., EUR" required>
+
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" name="amount" placeholder="e.g., 100" required>
+
+    <button type="submit">Convert</button>
+  </form>
+
+  <p id="result"></p>
+
+  <!-- Am about link linking to the landing page -->
+  <a href="landing_page.html">About</a>
+
+  <!-- Linking to JavaScript -->
+  <script src="index.js"></script>
+</body>
+</html>

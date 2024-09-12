@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  font-family: 'Segoe UI', cursive, Geneva, Verdana, sans-serif;
+  background-image: url(cf6.jpg);
+  min-height: 700px;
+}

@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  font-family: 'Segoe UI', cursive, Geneva, Verdana, sans-serif;
+  background-image: url(cf4.jpg);
+  /* min-height: 700px; */
+}
+
+/* Header Section */
+.first-line {
+  color: rgb(7, 7, 112);
+  /* background-image: url(cf5.jpg); */
+  font-size: 2em;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+/* Sub-header Section */
+.second-line {
+  color: black;
+  
+  font-size: 1.7em;
+  font-style: italic;
+  text-align: center;
+  padding: 30px 10px;
+  
+}
+
+/* Button */
+.first-button {
+  color: white;
+  float: right;
+  height: 7em;
+  width: 45em;
+  border-radius: 12px 0 0 12px;
+  background-color: rgb(7, 7, 112);
+  padding: 30px 30px;
+  text-align: justify;
+  border: none;
+  opacity: 0.8;
+  margin-top: 16rem;
+  /* position: sticky; */
+}
+
+h2 {
+  color: rgb(7, 7, 112);
+}
+
+a {
+  color: white;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets */
+@media (max-width: 768px) {
+  .ichi {
+    font-size: 1.5em;
+    padding: 15px 5px;
+  }
+
+  .ni {
+    font-size: 1.2em;
+    padding: 20px 5px;
+  }
+
+  .san {
+    width: 25em;
+    height: 6em;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .ichi {
+    font-size: 1.2em;
+    padding: 10px 5px;
+  }
+
+  .ni {
+    font-size: 1em;
+    padding: 15px 5px;
+  }
+
+  .san {
+    width: 10em;
+    height: 0.3em;
+  }
+}
